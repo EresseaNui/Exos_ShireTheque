@@ -1,0 +1,25 @@
+img {
+  height: 20rem;
+  width: 13rem;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+.card-container {
+  width: 20rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin: 0 1rem;
+}
+h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+.synopsis {
+  margin-top: 1rem;
+  text-align: center;
+}
+.card-container:hover {
+  background-color: rgb(204, 186, 22);
+}

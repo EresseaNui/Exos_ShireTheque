@@ -1,0 +1,18 @@
+<div class="card-container">
+  <div>
+    <h2 class="card-title">{{ data.nom }}</h2>
+    <p>De : {{ data.real || data.artiste }}</p>
+    <p>{{ data.annee }}</p>
+  </div>
+  <div>
+    <img *ngIf="data.img" [src]="data.img" />
+    <img
+      *ngIf="!data.img"
+      src="https://usbforwindows.com/storage/img/images_3/function_set_default_image_when_image_not_present.png"
+      alt="yolo"
+    />
+  </div>
+  <div class="synopsis">
+    <p *ngIf="data.synopsis">{{ data.synopsis | slice: 0:150 }}...</p>
+  </div>
+</div>

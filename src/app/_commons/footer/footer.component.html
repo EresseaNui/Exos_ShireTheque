@@ -11,7 +11,7 @@
         <h5 class="white-text">Liens utiles</h5>
         <ul>
           <li *ngFor="let link of navlinks">
-            <a class="grey-text text-lighten-3" routerLink="link.uri">{{
+            <a class="grey-text text-lighten-3" [routerLink]="link.uri">{{
               link.name
             }}</a>
           </li>

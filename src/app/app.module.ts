@@ -9,6 +9,8 @@ import { NotFoundComponent } from './_pages/not-found/not-found.component';
 import { HomePageComponent } from './_pages/home-page/home-page.component';
 import { ProductsPageComponent } from './_pages/products-page/products-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ProductCardComponent } from './_pages/products-page/product-card/product-card.component';
+import { ProductListComponent } from './_pages/products-page/product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     NotFoundComponent,
     HomePageComponent,
-    ProductsPageComponent
+    ProductsPageComponent,
+    ProductCardComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,

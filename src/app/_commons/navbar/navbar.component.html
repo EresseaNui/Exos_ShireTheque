@@ -3,8 +3,8 @@
     <a routerLink="/home" class="brand-logo right">ShireThèque</a>
     <ul id="nav-mobile" class="left">
       <li *ngFor="let link of navlinks">
-        <a routerLink="link.uri">{{ link.name }}</a>
+        <a [routerLink]="link.uri">{{ link.name }}</a>
       </li>
     </ul>
-  </div>
+  </div> 
 </nav>
