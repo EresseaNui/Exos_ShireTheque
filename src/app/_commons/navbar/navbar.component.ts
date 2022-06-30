@@ -6,11 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  navlinks = [
-    { id: 1, name: 'Produits', uri: '/product' },
-  ];
+  navlinks = [{ id: 1, name: 'Produits', uri: '/product' }];
 
   constructor() {}
 
   ngOnInit(): void {}
+
+  onClic(): void {
+    alert('Gentil Hobbit');
+  }
 }
