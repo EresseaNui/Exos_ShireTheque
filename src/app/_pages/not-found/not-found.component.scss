@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "anarion";
+  src: url("../../../assets/fonts/anirb___.ttf");
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10rem 0;
+}
+.img {
+  width: fit-content;
+}
+
+.img img {
+  width: 15rem;
+}
+
+.notFound-text {
+  text-align: center;
+}
+
+p,
+h2 {
+  font-family: "anarion";
+}

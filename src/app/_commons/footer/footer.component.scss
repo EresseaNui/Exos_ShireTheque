@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "anarion";
+  src: url("../../../assets/fonts/anirb___.ttf");
+}
 footer {
   background-color: #127422;
   width: 100vw;
-  // position: absolute;
-  // bottom: 0px;
+}
+
+h5,
+footer {
+  font-family: "anarion";
 }

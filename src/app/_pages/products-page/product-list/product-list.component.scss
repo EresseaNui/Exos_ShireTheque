@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "anarion";
+  src: url("../../../../assets/fonts/anirb___.ttf");
+}
 .container {
   margin: 2rem;
   display: flex;
@@ -15,4 +19,8 @@
 }
 .category-container {
   text-align: end;
+}
+
+h2 {
+  font-family: "anarion";
 }

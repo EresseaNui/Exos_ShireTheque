@@ -1,6 +1,13 @@
+@font-face {
+  font-family: "anarion";
+  src: url("../../../assets/fonts/anirb___.ttf");
+}
 nav {
   background-color: #127422;
 }
 .bt {
   cursor: pointer;
+}
+a {
+  font-family: "anarion";
 }
