@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  navlinks = [{ id: 1, name: 'Produits', uri: '/product' }];
+  navlinks = [
+    { name: 'Acceuil', uri: '/home' },
+    { name: 'Produits', uri: '/product' },
+  ];
 
   constructor() {}
 

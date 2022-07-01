@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss'],
 })
 export class FooterComponent implements OnInit {
-  navlinks = [{ id: 1, name: 'Produits', uri: '/product' }];
+  navlinks = [
+    { name: 'Acceuil', uri: '/home' },
+    { name: 'Produits', uri: '/product' },
+  ];
 
   constructor() {}
 
